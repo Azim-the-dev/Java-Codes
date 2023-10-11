@@ -9,7 +9,7 @@ public class J02_Variables{
         double salary = 50000.50;
         System.out.println("This is double: " + salary);
 
-        //boolean: Used for storing true or false values.
+        // boolean: Used for storing true or false values.
         boolean Java_is_Fun = true;
         System.out.println("This is boolean: " + Java_is_Fun);
 

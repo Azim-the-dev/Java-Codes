@@ -1,4 +1,6 @@
-public class J02_Variables{
+package Basics;
+
+class J02_Variables{
     public static void main(String args[]){
 
         // int: Used for storing integers.

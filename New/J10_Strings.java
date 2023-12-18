@@ -1,8 +1,6 @@
-package Strings;
-
 import java.util.Scanner;
 
-public class J2_Strings_2 {
+public class J10_Strings {
     public static void main(String args[]) {
 
         Scanner scn = new Scanner(System.in);
@@ -17,7 +15,6 @@ public class J2_Strings_2 {
 
         // Concatination
         String Full_Name = First_Name + " " + Last_Name;
-
         System.out.println("Your full name is: " + Full_Name);
 
         // Length
@@ -27,12 +24,7 @@ public class J2_Strings_2 {
         for (int i = 0; i < Full_Name.length(); i++) {
             System.out.println(Full_Name.charAt(i));
         }
-        // Uppercase and lowercase
-        System.out.println(Full_Name.toUpperCase());
-        System.out.println(Full_Name.toLowerCase());
 
-        // Check equality
-        System.out.println(Full_Name.equals("Azim"));
-        
+        // 
     }
 }

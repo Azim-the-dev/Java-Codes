@@ -1,6 +1,3 @@
-// This program is about check a number is negtive or not using Exception
-
-package Exception;
 import java.util.*;
 
 class NegativeNum extends Exception {
@@ -9,7 +6,7 @@ class NegativeNum extends Exception {
     }
 }
 
-public class J03_My_try {
+public class J01_Neg_Num {
 
     public static void check(int num) throws NegativeNum {
         if (num < 0) {
@@ -26,7 +23,7 @@ public class J03_My_try {
 
         try {
             check(num);
-        } catch (NegativeNum e) {
+        } catch (Exception e) {
             System.out.println(e);
         }
 

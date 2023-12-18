@@ -25,6 +25,11 @@ public class J10_Strings {
             System.out.println(Full_Name.charAt(i));
         }
 
-        // 
+        // Uppercase and lowercase
+        System.out.println(Full_Name.toUpperCase());
+        System.out.println(Full_Name.toLowerCase());
+
+        // Check equality
+        System.out.println(Full_Name.equals("Azim"));
     }
 }

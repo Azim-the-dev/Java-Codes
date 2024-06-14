@@ -40,13 +40,13 @@ class J02_Variables{
 // Data Types In JAva:
 /*   PRIMITIVE:                           
  *    int     = 4 byte [-2^31 to 2^31-1 (about -2 billion to 2 billion)]         
- *    double  = 8 byte [Approximately ±1.8x10^308 with higher precision]  
- *    boolean = 1 byte [true or false]
  *    short   = 2 byte [-32,768 to 32,767]
- *    long    = 8 byte [-2^63 to 2^63-1 (very large range)]
  *    float   = 4 byte [Approximately ±3.4x10^38 with limited precision]
- *    byte    = 1 byte [-128 to 127]
+ *    double  = 8 byte [Approximately ±1.8x10^308 with higher precision]  
+ *    long    = 8 byte [-2^63 to 2^63-1 (very large range)]
  *    char    = 2 byte [0 to 65,535 (Unicode characters)]
+ *    boolean = 1 byte [true or false]
+ *    byte    = 1 byte [-128 to 127]
  * 
  *   NON-PRIMITIVE:
  *    String    :[Represents sequences of characters]

@@ -4,7 +4,7 @@ public class J01_Command_Line {
     public static void main(String args[]) {
 
         if (args.length != 2) {
-            System.out.println("Please provide exactly two integers as command line arguments.");
+            System.out.println("Please provide two integers as command line arguments.");
             return;
         }
 
